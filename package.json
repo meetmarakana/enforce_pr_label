@@ -2,10 +2,10 @@
   "name": "enforce_pr_label",
   "version": "1.0.0",
   "description": "A github checks tool to enforce label to be selected",
-  "main": "enforce.ts",
+  "main": "enforce_main.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node ./lib/enforce.js"
+    "start": "node ./lib/enforce_main.js"
   },
   "repository": {
     "type": "git",
