@@ -5,4 +5,4 @@ COPY . .
 RUN npm install
 RUN node_modules/typescript/bin/tsc
 
-CMD npm start
+ENTRYPOINT ["node", "/lib/enforce.js"]
