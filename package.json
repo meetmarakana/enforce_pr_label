@@ -1,0 +1,36 @@
+{
+  "name": "enforce_pr_label",
+  "version": "1.0.0",
+  "description": "A github checks tool to enforce label to be selected",
+  "main": "enforce.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./lib/enforce.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetmarakana/enforce_pr_label.git"
+  },
+  "keywords": [
+    "github",
+    "checks",
+    "label",
+    "enforce",
+    "pr",
+    "label"
+  ],
+  "author": "meet marakana <meetmarakana1997@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetmarakana/enforce_pr_label/issues"
+  },
+  "homepage": "https://github.com/meetmarakana/enforce_pr_label#readme",
+  "dependencies": {
+    "@actions/github": "^4.0.0",
+    "@actions/core": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.2",
+    "typescript": "^4.0.3"
+  }
+}
